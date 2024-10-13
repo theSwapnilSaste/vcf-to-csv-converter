@@ -1,4 +1,4 @@
-/* Basic styling for the page */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,8 +7,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
+    flex-direction: column;
 }
 
 .container {
@@ -17,6 +17,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 300px;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
 }
 
 input[type="file"] {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 button {
@@ -50,8 +51,12 @@ button:hover {
     font-size: 16px;
 }
 
+.hidden {
+    display: none;
+}
+
 footer {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 14px;
 }
 
